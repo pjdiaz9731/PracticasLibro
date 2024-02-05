@@ -14,7 +14,7 @@ public class Practica1 {
        System.out.println("Cuantos numeros piensas decirme");
        int a = Integer.parseInt(System.console().readLine());
        int i =0,s=0;
-       while (i<a ){
+       while (i < a){
            System.out.println("Dime un numero");
            int n = Integer.parseInt(System.console().readLine());
            s = s + n;
